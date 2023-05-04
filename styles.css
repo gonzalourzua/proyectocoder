@@ -5,13 +5,13 @@
 }
 
 h1{
-    font-size: 54px;
+    font-size: 48px;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
 }
 
 h2{
-    font-size: 46px;
+    font-size: 42px;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
 }
@@ -79,9 +79,10 @@ ul{
 }
 
 .hero-img {
-    width: auto;
+    width: 80%;
     padding-top: 50px;
     padding-bottom: 50px;
+    margin: 0 auto;
 }
 
 .gradient{
@@ -122,6 +123,26 @@ ul{
 .item{
     padding: 10px;
     margin: 0 auto;
+}
+
+.flex-container{
+    display: flex;
+    background-color: #f0f0f0;
+    padding: 60px 0px 50px;
+    align-items: center;
+    gap: 30px;
+    
+
+}
+
+.flex-item{
+    flex-wrap: wrap;
+    width: 35%;
+}
+
+
+.img-mid {
+    width: 80%;
 }
 
 .ph-duotone{
@@ -235,6 +256,21 @@ ul{
 
     .item-mobile{
         width: 480px;
+    }
+
+    .flex-container{
+        display: flex;
+        flex-direction: column;
+        background-color: #f0f0f0;
+        padding: 60px 0px 50px;
+    }
+    
+    .flex-item{
+        width: 80%;
+        align-self: center;
+        text-align: center;
+        margin: 0 auto;
+        padding: 30px 0px 30px;
     }
 
     .form-news{
