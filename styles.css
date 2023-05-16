@@ -42,7 +42,7 @@ h6 {
 
 p {
   font-size: 16px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 300;
 }
 
@@ -121,6 +121,9 @@ ul {
   padding: 10px;
   margin: 0 auto;
 }
+.item img {
+  border-radius: 20px;
+}
 
 .flex-container {
   display: flex;
@@ -177,23 +180,20 @@ ul {
   padding: 50px;
   color: #b1b1b1;
 }
-
-.footer p {
-  padding: 10px 30px 10px;
-}
-
 .footer a {
   text-decoration: none;
   color: #b1b1b1;
+}
+.footer p {
+  padding: 10px 30px 10px;
+}
+.footer ul li {
+  text-align: center;
 }
 
 .footer-img {
   width: 250px;
   padding: 10px 30px 10px;
-}
-
-.footer ul li {
-  text-align: center;
 }
 
 .social-icons {
